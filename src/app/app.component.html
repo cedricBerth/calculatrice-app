@@ -1,0 +1,32 @@
+<h1>Ma première calculatrice</h1>
+
+<table>
+  <tr>
+    <td colspan="4" class="screen">{{ screen }}</td>
+  </tr>
+  <tr>
+    <td (click)="Affichage('9')">9</td>
+    <td (click)="Affichage('8')">8</td>
+    <td (click)="Affichage('7')">7</td>
+    <td (click)="Affichage('+')">+</td>
+  </tr>
+  <tr>
+    <td (click)="Affichage('6')">6</td>
+    <td (click)="Affichage('5')">5</td>
+    <td (click)="Affichage('4')">4</td>
+    <td (click)="Affichage('*')">*</td>
+  </tr>
+  <tr>
+    <td (click)="Affichage('3')">3</td>
+    <td (click)="Affichage('2')">2</td>
+    <td (click)="Affichage('1')">1</td>
+    <td (click)="Affichage('/')">/</td>
+  </tr>
+  <tr>
+    <td (click)="Affichage('0')">0</td>
+    <td (click)="Affichage('=')">=</td>
+    <td (click)="Affichage('C')">C</td>
+    <td (click)="Affichage('<')"><</td>
+  </tr>
+</table>
+

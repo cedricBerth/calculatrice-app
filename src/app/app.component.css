@@ -1,0 +1,7 @@
+tr td{
+  padding: 20px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.screen{ height: 20px;  }
